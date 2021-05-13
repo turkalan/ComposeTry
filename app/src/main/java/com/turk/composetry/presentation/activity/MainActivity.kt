@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         super.onBackPressed()
-        findNavController(R.id.main_nav_host_fragment).popBackStack()
+        findNavController(R.id.main_nav_host_fragment).navigateUp()
     }
 
 }
