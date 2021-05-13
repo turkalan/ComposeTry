@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ComposeTry</string>
+    <string name="la_liga">La Liga</string>
+    <string name="premier_league">Premier League</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="ligue_1">Ligue 1</string>
+    <string name="serie_a">Serie A</string>
+    <string name="la_liga_photo_url"><![CDATA[https://iscreativestudio.com/wp-content/uploads/2016/08/logotipos4.jpg]]></string>
+    <string name="ligue_1_photo_url"><![CDATA[https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Ligue_1_Uber_Eats.svg/1200px-Ligue_1_Uber_Eats.svg.png]]></string>
+    <string name="bundesliga_photo_url"><![CDATA[https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Bundesliga_logo_%282017%29.svg/1200px-Bundesliga_logo_%282017%29.svg.png]]></string>
+    <string name="serie_A_photo_url"><![CDATA[https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Serie_A_logo_%282019%29.svg/1200px-Serie_A_logo_%282019%29.svg.png]]></string>
+    <string name="premier_league_photo_url"><![CDATA[https://i.pinimg.com/originals/ae/24/49/ae2449de25dbd1ca23da69d6dcc7c70d.jpg]]></string>
+</resources>

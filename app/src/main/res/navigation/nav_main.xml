@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/leagueFragment">
+
+    <fragment
+        android:id="@+id/leagueFragment"
+        android:name="com.turk.composetry.presentation.feed.view.fragments.FeedFragment"
+        android:label="LeagueFragment" >
+        <action
+            android:id="@+id/action_leagueFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.turk.composetry.presentation.details.view.DetailsFragment"
+        android:label="DetailsFragment">
+        <argument
+            android:name="league"
+            app:argType="com.turk.composetry.domain.models.League" />
+    </fragment>
+</navigation>
